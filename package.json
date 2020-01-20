@@ -1,0 +1,32 @@
+{
+  "name": "philly-motorcycle-parking",
+  "version": "1.0.0",
+  "description": "A web app that scrapes the PPA website for locations of motorcycle parking corrals and drops them on an interactive map",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngranahan/philly-motorcycle-parking.git"
+  },
+  "author": "Nora Granahan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ngranahan/philly-motorcycle-parking/issues"
+  },
+  "homepage": "https://github.com/ngranahan/philly-motorcycle-parking#readme",
+  "dependencies": {
+    "axios": "^0.19.1",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "body-parser": "^1.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.1",
+    "express-nunjucks": "^2.2.3",
+    "nodemon": "^2.0.2",
+    "nunjucks": "^3.2.0"
+  }
+}
