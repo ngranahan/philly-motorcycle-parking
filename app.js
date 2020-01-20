@@ -2,6 +2,13 @@ const express = require("express");
 const expressNunjucks = require('express-nunjucks');
 const bodyParser = require("body-parser");
 
+// TODO: Figure out if we need to store the addresses and if so, where. Maybe a really simple mongo setup. 
+// TODO: Convert addresses to lat and long (probably gonna use google maps geocoder for that)
+// TODO: Setup webpack to compile frontend assets (probably want to use sass)
+// TODO: Build the frontend (HTML and CSS)
+// TODO: Integrate with map api and drop coordinates on the map
+// TODO: Deploy to heroku or something similar
+
 // TODO: Move these things over to another file
 const axios = require('axios');
 const cheerio = require('cheerio');
